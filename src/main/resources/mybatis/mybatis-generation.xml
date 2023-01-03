@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <context id="mgContext" targetRuntime="MyBatis3Simple">
+        <!-- スキーマ情報を取得する DB への接続設定 -->
+        <jdbcConnection driverClass="oracle.jdbc.driver.OracleDriver"
+                        connectionURL="jdbc:oracle:thin:@192.168.1.10:1521/orclpdb"
+                        userId="SCOTT"
+                        password="Lipton1120">
+        </jdbcConnection>
+
+        <javaTypeResolver>
+            <property name="forceBigDecimal" value="false"/>
+        </javaTypeResolver>
+
+        <!-- SELECT 結果等を格納するドメインモデルを生成する設定 -->
+        <javaModelGenerator targetPackage="com.gshow.domain.entity" targetProject="src/main/java">
+            <property name="enableSubPackages" value="true" />
+            <property name="trimStrings" value="true" />
+        </javaModelGenerator>
+
+        <!-- SQL 設定が記述された XML を生成する設定 -->
+        <sqlMapGenerator targetPackage="mybatis/mapper" targetProject="src/main/resources">
+            <property name="enableSubPackages" value="true" />
+        </sqlMapGenerator>
+        <!-- マッパークラスを生成する設定 -->
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.gshow.mapper" targetProject="src/main/java">
+            <property name="enableSubPackages" value="true" />
+        </javaClientGenerator>
+
+        <!-- コードを生成するテーブルを指定 -->
+        <table schema="SCOTT" tableName="EMP" domainObjectName="EmpEntity" mapperName="EmpMapper">
+            <property name="useActualColumnNames" value="false" />
+        </table>
+    </context>
+</generatorConfiguration>
