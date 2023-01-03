@@ -9,21 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58400511-ea51-429a-9e0e-38e6a2607c3c" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/conf/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-app.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="58400511-ea51-429a-9e0e-38e6a2607c3c" name="变更" comment="[gshow]init project." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,14 +182,35 @@
       <option name="presentableId" value="Default" />
       <updated>1672723435964</updated>
       <workItem from="1672723437098" duration="3729000" />
-      <workItem from="1672728002805" duration="1040000" />
+      <workItem from="1672728002805" duration="1467000" />
     </task>
+    <task id="LOCAL-00001" summary="[gshow]init project.">
+      <created>1672729132174</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672729132175</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="[gshow]init project." />
+    <option name="LAST_COMMIT_MESSAGE" value="[gshow]init project." />
   </component>
 </project>
